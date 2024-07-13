@@ -1,3 +1,20 @@
+
+body{
+  background-color: #F5F4F0;
+}
+
+#conteiner{
+  box-sizing: border-box;
+  width: 1120px;
+  padding: 80px;
+  margin: 88px auto;
+}
+
+.subt-title{
+  color: #E1624F;
+  text-transform: uppercase;
+}
+
 img{
   border-radius: 28px;
 }
