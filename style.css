@@ -1,3 +1,9 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 :root{
   font-family: "Open Sans", sans-serif;
   line-height: 136%;
@@ -15,34 +21,79 @@ body{
   margin: 88px auto;
 }
 
+main{
+  box-sizing: border-box;
+  width: 1120px;
+}
+
+#title p{
+  margin-bottom: 8px;
+}
+
+
 .subt-title{
   color: #E1624F;
   text-transform: uppercase;
   font-size: 16px;
 }
 
-h1{
-  font-size: 36px;
-}
-
-h2{
-  font-size: 32px;
-}
-
-h3{
-  font-size: 28px;
+h1, h2, h3{
+  color: #1B1B1B;
 }
 
 img{
   border-radius: 28px;
 }
 
-h1, h2, h3{
-  color: #1B1B1B;
+h1{
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+#image img{
+  margin-bottom: 24px;
+}
+
+#image p{
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #aaa;
+}
+
+#list p{
+  margin-top: 64px;
+  margin-bottom: 2px;
+}
+
+#list h2{
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+#list h2 + p{
+  margin-bottom: 64px;
+}
+
+#list img{
+  margin-bottom: 20px;
+}
+
+#list h3{
+  font-size: 28px;
+  margin-bottom: 4px;
+}
+
+ul li::marker{
+ color: black;
+}
+
+ul{
+  padding-left: 22px;
 }
 
 .accent-blue{
   color: #0C51A7;
+  margin-bottom: 48px;
 }
 
 .accent-purple{
@@ -55,4 +106,16 @@ h1, h2, h3{
 
 .accent-orange{
   color: #E95E10;
+  margin-bottom: 40px;
+  border: #D9D9D9;
+}
+
+#descrition::before{
+  content: '';
+  width: 1120px;
+  height: 2px;
+  display: block;
+  background-color: #aaaaaa;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
